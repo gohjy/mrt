@@ -144,6 +144,49 @@ const stations = [
 	// Circle Line
 	[
 		[
+			["CC2", "CCL1"]
+		],
+		"Bras Basah"
+	],
+	[
+		[
+			["CC3", "CCL1"]
+		],
+		"Esplanade"
+	],
+	[
+		[
+			["CC4", "CCL1"],
+			["DT15", "DTL1"]
+		],
+		"Promenade"
+	],
+	[
+		[
+			["CC5", "CCL1"]
+		],
+		"Nicoll Highway"
+	],
+	[
+		[
+			["CC6", "CCL1"]
+		],
+		"Stadium"
+	],
+	[
+		[
+			["CC7", "CCL2"]
+		],
+		"Mountbatten"
+	],
+	[
+		[
+			["CC8", "CCL2"]
+		],
+		"Dakota"
+	],
+	[
+		[
 			["CE1", "CCLe", "CC34", "CCL6"],
 			["DT14", "DTL1"]
 		],
@@ -302,6 +345,13 @@ const stations = [
 		],
 		"Sungei Bedok"
 	],
+	[
+		[
+			["TE32", "TELe"],
+			["CR1", "CRLe"]
+		],
+		"Changi Airport Terminal 5"
+	]
 ];
 
 const stages = {
@@ -380,7 +430,7 @@ const stages = {
 	"CPe": {open: false, date: "2032", except: {}},
 	"CRL2": {open: false, date: "2032", except: {}},
 	"CRL3": {open: false, date: "TBA", except: {}},
-
+	"CRLe": {open: false, date: "by 2040", except: {}},
 	// RTS Link
 	"RTS Link": {open: false, date: "2026", except: {}}
 }
