@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MRT Singapore</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header><img src="mrtlogo.png"/><h2>MRT Singapore</h2></header>
+  <h1>MRT Singapore</h1>
+	<div id="getbycode">
+		<h2>Find Station by Station Code</h2>
+		<p>Station Code (eg EW1 or dt32 [case-insensitive]): <br/><input id="stncode" autocomplete="off" autocapitalize="off" /> <button id="go1">Go!</button></p>
+		<h2>Find Station by Station Name</h2>
+		<p>Station Name (eg Katong Park or bukit panjang [case-insensitive]): <br/><input id="stnname" autocomplete="off" autocapitalize="off" /> <button id="go2" >Go!</button></p>
+		<hr/>
+		<output id="stn_output"></output>
+	</div>
+
+	<!--<div class="stn-code-holder"><div class="stn-code ew">EW 1</div></div>-->
+  <script src="basic.js"></script>
+	<script src="user.js"></script>
+</body>
+
+</html>

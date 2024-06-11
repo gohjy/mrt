@@ -1,0 +1,154 @@
+@font-face {
+	font-family: "MRTFont";
+	src: url("fonts/identity.woff") format("woff"),
+		url("fonts/identity.woff2") format("woff2");
+}
+
+* {
+	font-family: MRTFont !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal !important;
+}
+
+:root {
+	font-family: MRTFont;
+	--ewl-color: #009645;
+	--nsl-color: #D42E12;
+	--nel-color: #9900AA;
+	--ccl-color: #FA9E0D;
+	--dtl-color: #005EC4;
+	--tel-color: #9D5B25;
+	--jrl-color: #0099AA;
+	--crl-color: #97C616;
+	--lrt-color: #748477;
+
+	--curve-amt: 12.5px;
+}
+
+.stn-code-holder > .stn-code:first-child {
+	border-bottom-left-radius: var(--curve-amt);
+	border-top-left-radius: var(--curve-amt);
+}
+
+.stn-code-holder > .stn-code:last-child {
+	border-bottom-right-radius: var(--curve-amt);
+	border-top-right-radius: var(--curve-amt);
+}
+
+.stn-code-holder > .stn-code:is(.ew, .cg) {
+	background-color: var(--ewl-color);
+	color: white;
+}
+
+.stn-code-holder > .stn-code.ns {
+	background-color: var(--nsl-color);
+	color: white;
+}
+
+.stn-code-holder > .stn-code.ne {
+	background-color: var(--nel-color);
+	color: white;
+}
+
+.stn-code-holder > .stn-code:is(.cc, .ce) {
+	background-color: var(--ccl-color);
+	color: black;
+}
+
+.stn-code-holder > .stn-code:is(.dt, .de) {
+	background-color: var(--dtl-color);
+	color: white;
+}
+
+.stn-code-holder > .stn-code.te {
+	background-color: var(--tel-color);
+	color: white;
+}
+
+.stn-code-holder > .stn-code:is(.js, .jw, .je) {
+	background-color: var(--jrl-color);
+	color: white;
+}
+
+.stn-code-holder > .stn-code:is(.cr, .cp) {
+	background-color: var(--crl-color);
+	color: black;
+}
+
+.stn-code-holder > .stn-code:is(.bp, .sk, .se, .sw, .pg, .pe, .pw, .lrt) {
+	background-color: var(--lrt-color);
+	color: white;
+}
+
+.stn-code-holder > .stn-code.rts {
+	background-color: darkorange;
+	color: white;
+}
+
+.stn-code-holder {
+	display: inline-block;
+	margin: 3px;
+}
+
+.stn-code {
+	display: inline-block;
+	padding: 5px;
+}
+
+:not(h1, h2, h3, h4, h5, h6, small) {
+	font-size: inherit;
+}
+
+a {
+	color: blue;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	box-sizing: border-box;
+	height: 50px;
+	border-bottom: 1px solid black;
+	padding: 5px;
+	align-items: center;
+	background-color: white;
+	overflow-y: clip;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+header * {
+	display: inline-block;
+	margin: 0;
+}
+
+header img {
+	height: 97%;
+	width: auto;
+	padding-right: 3px;
+}
+
+body {
+	padding-top: 50px;
+}
+
+.stn-code:is(.ew, .cg) + .stn-code:is(.ew, .cg), .stn-code.ns + .stn-code.ns, .stn-code.ne + .stn-code.ne, .stn-code:is(.cc, .ce) + .stn-code:is(.cc, .ce), .stn-code:is(.dt, .de) + .stn-code:is(.dt, .de), .stn-code.te + .stn-code.te, .stn-code:is(.js, .jw, .je) + .stn-code:is(.js, .jw, .je), .stn-code:is(.cr, .cp) + .stn-code:is(.cr, .cp), .stn-code:is(.bp, .sk, .se, .sw, .pg, .pe, .pw, .lrt) + .stn-code:is(.bp, .sk, .se, .sw, .pg, .pe, .pw, .lrt) {
+	border-left: 1px solid white;
+}
+
+body {
+	-webkit-print-color-adjust:exact !important;
+	print-color-adjust:exact !important;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid black;
+}
