@@ -141,6 +141,13 @@ const stations = [
 		"Dhoby Ghaut"
 	]
 	,
+	// North-East Line
+	[
+		[
+			["NE18", "NELe"]
+		],
+		"Punggol Coast"
+	],
 	// Circle Line
 	[
 		[
