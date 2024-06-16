@@ -144,6 +144,13 @@ const stations = [
 	// North-East Line
 	[
 		[
+			["NE1", "NEL"],
+			["CC29", "CCL5"]
+		],
+		"HarbourFront"
+	],
+	[
+		[
 			["NE18", "NELe"]
 		],
 		"Punggol Coast"
