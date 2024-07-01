@@ -124,12 +124,11 @@
 	}
 
 	const btn = document.querySelector("#go1");
-	btn.addEventListener("click", (e) => {stnCodeSearch(); e.currentTarget.value = "";});
+	btn.addEventListener("click", (e) => stnCodeSearch);
 	const input = document.querySelector("#stncode");
 	input.addEventListener("change", function(e) {
 		e.currentTarget.blur();
 		stnCodeSearch();
-		e.currentTarget.value="";
 	});
 }
 
@@ -250,11 +249,10 @@
 	}
 
 	const btn = document.querySelector("#go2");
-	btn.addEventListener("click", (e) => {stnNameSearch(); e.currentTarget.value="";});
+	btn.addEventListener("click", (e) => stnNameSearch);
 	const input = document.querySelector("#stnname");
 	input.addEventListener("change", function(e) {
 		e.currentTarget.blur();
 		stnNameSearch();
-		e.currentTarget.value = "";
 	});
 }
