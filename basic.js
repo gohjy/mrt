@@ -151,6 +151,42 @@ const stations = [
 	],
 	[
 		[
+			["NE5", "NEL"]
+		],
+		"Clarke Quay"
+	],
+	[
+		[
+			["NE8", "NEL"]
+		],
+		"Farrer Park"
+	],
+	[
+		[
+			["NE9", "NEL"]
+		],
+		"Boon Keng"
+	],
+	[
+		[
+			["NE10", "NEL"]
+		],
+		"Potong Pasir"
+	],
+	[
+		[
+			["NE11", "NEL"]
+		],
+		"Woodleigh"
+	],
+	[
+		[
+			["NE13", "NEL"]
+		],
+		"Kovan"
+	],
+	[
+		[
 			["NE18", "NELe"]
 		],
 		"Punggol Coast"
@@ -206,7 +242,7 @@ const stations = [
 		],
 		"Bayfront"
 	],
-
+	
 	// Thomson-East Coast Line
 	[
 		[
@@ -427,7 +463,7 @@ const stages = {
 		"TE10": {open: false, date: "TBA", except: {}},
 		"TE21": {open: false, date: "TBA", except: {}}
 	}},
-	"TEL4": {open: false, date: "23 Jun 2024", except: {
+	"TEL4": {open: true, date: "23 Jun 2024", except: {
 		"TE22A": {open: false, date: "2028", except: {}}
 	}},
 	"TEL5": {open: false, date: "2026", except: {}},
