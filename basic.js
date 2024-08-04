@@ -22,7 +22,45 @@ const lines = {
 	]
 };
 
-
+const stnList = [
+	[
+		[
+			["NS10", "NSL Woodlands Extension"]
+		],
+		"Admiralty"
+	],
+	[
+		[
+			["EW9", "EWL2a1"]
+		],
+		"Aljunied"
+	],
+	[
+		[
+			["NS16", "NSL1-1"],
+			["CR11", "CRL1"]
+		],
+		"Ang Mo Kio"
+	],
+	[
+		[
+			["CR2", "CRL1"]
+		],
+		"Aviation Park"
+	],
+	[
+		[
+			["JS7", "JRL1"]
+		],
+		"Bahar Junction"
+	],
+	[
+		[
+			["CC12", "CCL3"]
+		],
+		"Bartley"
+	]
+];
 const stations = [
 	/*
  		Format:
@@ -502,7 +540,7 @@ function format(input) {
 		throw new TypeError("Input must be a string");
 	}
 	input = input.trim().toLowerCase();
-	if (input === "rts") return input;
+	if (["rts", "ptc", "stc"].some(i => i === input)) return input;
 	if 		(!lines.standardFormatOrder.includes(input.slice(0, 2))) throw new ValueError("Bad input");
 	if (!input.slice(2).match(/^([1-9]\d*[a-z]?)?$/)) throw new ValueError("Bad input");
 	return input;
