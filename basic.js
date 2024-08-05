@@ -314,6 +314,38 @@ const stnList = [
 			["JS5", "JRL1"]
 		],
 		"Corporation"
+	],
+	[
+		[
+			["CC8", "CCL2"]
+		],
+		"Dakota"
+	],
+	[
+		[
+			["CR7", "CRL1"]
+		],
+		"Defu"
+	],
+	[
+		[
+			["NS24", "NSL1-2"],
+			["NE6", "NEL"],
+			["CC1", "CCL1"]
+		],
+		"Dhoby Ghaut"
+	],
+	[
+		[
+			["EW22", "EWL Dover Infill Station"]
+		],
+		"Dover"
+	],
+	[
+		[
+			["DT17", "DTL1"]
+		],
+		"Downtown"
 	]
 ];
 const stations = [
