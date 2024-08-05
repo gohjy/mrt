@@ -59,6 +59,74 @@ const stnList = [
 			["CC12", "CCL3"]
 		],
 		"Bartley"
+	],
+	[
+		[
+			["CE1", "CCLe", "CC34", "CCL6"],
+			["DT14", "DTL1"]
+		],
+		"Bayfront"
+	],
+	[
+		[
+			["TE29", "TEL4"]
+		],
+		"Bayshore"
+	],
+	[
+		[
+			["DT5", "DTL2"]
+		],
+		"Beauty World"
+	],
+	[
+		[
+			["EW5", "EWL2a1"]
+		],
+		"Bedok"
+	],
+	[
+		[
+			["DT29", "DTL3"]
+		],
+		"Bedok North"
+	],
+	[
+		[
+			["DT30", "DTL3"]
+		],
+		"Bedok Reservoir"
+	],
+	[
+		[
+			["TE30", "TEL5"]
+		],
+		"Bedok South"
+	],
+	[
+		[
+			["DT21", "DTL3"]
+		],
+		"Bencoolen"
+	],
+	[
+		[
+			["DT23", "DTL3"]
+		],
+		"Bendemeer"
+	],
+	[
+		[
+			["NS17", "NSL1-1"],
+			["CC15", "CCL3"]
+		],
+		"Bishan"
+	],
+	[
+		[
+			["NE9", "NEL"]
+		],
+		"Boon Keng"
 	]
 ];
 const stations = [
