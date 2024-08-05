@@ -127,6 +127,51 @@ const stnList = [
 			["NE9", "NEL"]
 		],
 		"Boon Keng"
+	],
+	[
+		[
+			["EW27", "EWL2b2"],
+			["JS8", "JRL1"]
+		],
+		"Boon Lay"
+	],
+	[
+		[
+			["CC19", "CCL4"],
+			["DT9", "DTL2"]
+		],
+		"Botanic Gardens"
+	],
+	[
+		[
+			["NS18", "NSL1-1"]
+		],
+		"Braddell"
+	],
+	[
+		[
+			["CC2", "CCL1"]
+		],
+		"Bras Basah"
+	],
+	[
+		[
+			["NS3A", "NSL Brickland Infill Station"]
+		],
+		"Brickland"
+	],
+	[
+		[
+			["TE7", "TEL2"],
+			["CR13", "CRL1"]
+		],
+		"Bright Hill"
+	],
+	[
+		[
+			["NE15", "NEL"]
+		],
+		"Buangkok"
 	]
 ];
 const stations = [
