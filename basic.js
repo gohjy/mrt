@@ -172,6 +172,76 @@ const stnList = [
 			["NE15", "NEL"]
 		],
 		"Buangkok"
+	],
+	[
+		[
+			["EW12", "EWL2a1"],
+			["DT14", "DTL1"]
+		],
+		"Bugis"
+	],
+	[
+		[
+			["NS2", "NSL2b2"]
+		],
+		"Bukit Batok"
+	],
+	[
+		[
+			["JE3", "JRL2"]
+		],
+		"Bukit Batok West"
+	],
+	[
+		[
+			["CC18", "CCL Bukit Brown Shell Station"]
+		],
+		"Bukit Brown"
+	],
+	[
+		[
+			["NS3", "NSL2b2"]
+		],
+		"Bukit Gombak"
+	],
+	[
+		[
+			["DT1", "DTL2"],
+			["BP6", "BPLRT"]
+		],
+		"Bukit Panjang"
+	],
+	[
+		[
+			["EW21", "EWL1a"],
+			["CC22", "CCL4"]
+		],
+		"Buona Vista"
+	],
+	[
+		[
+			["TE9", "TEL2"],
+			["CC17", "CCL4"]
+		],
+		"Caldecott"
+	],
+	[
+		[
+			["NS12", "NSL Canberra Infill Station"]
+		],
+		"Canberra"
+	],
+	[
+		[
+			["CC31", "CCL6"]
+		],
+		"Cantonment"
+	],
+	[
+		[
+			["DT2", "DTL2"]
+		],
+		"Cashew"
 	]
 ];
 const stations = [
@@ -622,9 +692,9 @@ const stages = {
 	"TEL Tagore Station": {open: false, date: "TBA", except: {}},
 
 	// Jurong Region Line
-	"JRL1": {open: true, date: "2027", except: {}},
-	"JRL2": {open: true, date: "2028", except: {}},
-	"JRL3": {open: true, date: "2029", except: {}},
+	"JRL1": {open: false, date: "2027", except: {}},
+	"JRL2": {open: false, date: "2028", except: {}},
+	"JRL3": {open: false, date: "2029", except: {}},
 	
 	// Cross Island Line
 	"CRL1": {open: false, date: "2030", except: {}},
@@ -633,17 +703,24 @@ const stages = {
 	"CRL3": {open: false, date: "TBA", except: {}},
 	"CRLe": {open: false, date: "by 2040", except: {}},
 	// RTS Link
-	"RTS Link": {open: false, date: "2026", except: {}}
+	"RTS Link": {open: false, date: "2026", except: {}},
+
+	// LRT
+	"BPLRT": {open: true, date: "6 Nov 1999", except: {
+		"BP14": {open: false, date: "with BPLRT, permanantly closed 13 Jan 2019 as part of BPLRT renewal works", except: {}}
+	}},
 }
 
 function getStation(stCode) {
-	let station = stations.find(i =>  i[0].some(j => j[0].toLowerCase() === stCode.toLowerCase())) ?? null; 
+	let station = stnList.find(i =>  i[0].some(j => j[0].toLowerCase() === stCode.toLowerCase())) ?? null;
+	station = station ?? (stations.find(i =>  i[0].some(j => j[0].toLowerCase() === stCode.toLowerCase())) ?? null); 
 	return station;
 }
 
 function getStationName(stName) {
 
-	let station = stations.find(i =>  i[1].toLowerCase() === stName.toLowerCase()) ?? null;
+	let station = stnList.find(i =>  i[1].toLowerCase() === stName.toLowerCase()) ?? null;
+	station = station ?? (stations.find(i =>  i[1].toLowerCase() === stName.toLowerCase()) ?? null);
 	return station;
 }
 
