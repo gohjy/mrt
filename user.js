@@ -1,3 +1,5 @@
+const tripleLetters = ["rts", "ptc", "stc"];
+
 // TESTING PHASE 1
 {
 	const stnCodeSearch = function() {

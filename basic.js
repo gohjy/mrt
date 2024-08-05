@@ -346,8 +346,80 @@ const stnList = [
 			["DT17", "DTL1"]
 		],
 		"Downtown"
-	]
+	],
+	[
+		[
+			["CP2", "CPe"]
+		],
+		"Elias"
+	],
+	[
+		[
+			["JS9", "JRL3"]
+		],
+		"Enterprise"
+	],
+	[
+		[
+			["CC3", "CCL1"]
+		],
+		"Esplanade"
+	],
+	[
+		[
+			["EW7", "EWL2a1"]
+		],
+		"Eunos"
+	],
+	[
+		[
+			["CG1", "EWL Changi Airport Extension", "TE34", "TELe"],
+			["DT35", "DTL3"]
+		],
+		"Expo"
+	],
+	[
+		[
+			["NE8", "NEL"]
+		],
+		"Farrer Park"
+	],
+	[
+		[
+			["CC20", "CCL4"]
+		],
+		"Farrer Road"
+	],
+	[
+		[
+			["DT20", "DTL3"]
+		],
+		"Fort Canning"
+	],
+	[
+		[
+			["TE22A", "TEL4"]
+		],
+		"Founders' Memorial"
+	],
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const stations = [
 	/*
  		Format:
