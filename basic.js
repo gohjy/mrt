@@ -242,7 +242,20 @@ const stnList = [
 			["DT2", "DTL2"]
 		],
 		"Cashew"
-	]
+	],
+	[
+		[
+			["CG2", "EWL Changi Airport Extension", "TE33", "TELe"]
+		],
+		"Changi Airport"
+	],
+	[
+		[
+			["TE32", "TELe"],
+			["CR1", "CRLe"]
+		],
+		"Changi Airport Terminal 5"
+	],
 ];
 const stations = [
 	/*
