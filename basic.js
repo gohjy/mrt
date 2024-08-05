@@ -18,7 +18,14 @@ const lines = {
 		"jw", // Jurong Region Line (West Branch)
 		"je", // Jurong Region Line (East Branch)
 		"cr", // Cross Island Line
-		"cp"  // Cross Island Line Punggol Extension
+		"cp", // Cross Island Line Punggol Extension
+		"bp", // Bukit Panjang LRT
+		"se", // SKLRT East Loop
+		"sw", // SKLRT West Loop
+		"stc",// SKLRT Sengkang Town Centre
+		"pe", // PGLRT East Loop
+		"pw", // PGLRT West Loop
+		"ptc",// PGLRT Punggol Town Centre
 	]
 };
 
