@@ -256,6 +256,65 @@ const stnList = [
 		],
 		"Changi Airport Terminal 5"
 	],
+	[
+		[
+			["NE4", "NEL"],
+			["DT19", "DTL1"]
+		],
+		"Chinatown"
+	],
+	[
+		[
+			["EW25", "EWL2b1"]
+		],
+		"Chinese Garden"
+	],
+	[
+		[
+			["NS4", "NSL2b2"],
+			["BP1", "BPLRT"],
+			["JS1", "JRL1"]
+		],
+		"Choa Chu Kang"
+	],
+	[
+		[
+			["JS2", "JRL1"]
+		],
+		"Choa Chu Kang West"
+	],
+	[
+		[
+			["NS25", "NSL1-2"],
+			["EW13", "EWL1"]
+		],
+		"City Hall"
+	],
+	[
+		[
+			["NE5", "NEL"]
+		],
+		"Clarke Quay"
+	],
+	[
+		[
+			["EW23", "EWL1a"],
+			["CR17", "CRL2"]
+		],
+		"Clementi"
+	],
+	[
+		[
+			["EW20", "EWL1a"]
+		],
+		"Commonwealth"
+	],
+	[
+		[
+			["JS5", "JRL1"]
+		],
+		"Corporation"
+	]
 ];
 const stations = [
 	/*
