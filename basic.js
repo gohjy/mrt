@@ -438,6 +438,56 @@ const stnList = [
 			["EW30", "EWL Tuas West Extension"]
 		],
 		"Gul Circle"
+	],
+	[
+		[
+			["NE1", "NEL"],
+			["CC29", "CCL5"]
+		],
+		"HarbourFront"
+	],
+	[
+		[
+			["TE16", "TEL3"]
+		],
+		"Havelock"
+	],
+	[
+		[
+			["CC25", "CCL5"]
+		],
+		"Haw Par Villa"
+	],
+	[
+		[
+			["DT3", "DTL2"]
+		],
+		"Hillview"
+	],
+	[
+		[
+			["CC21", "CCL4"]
+		],
+		"Holland Village"
+	],
+	[
+		[
+			["JS4", "JRL1"]
+		],
+		"Hong Kah"
+	],
+	[
+		[
+			["NE14", "NEL"],
+			["CR8", "CRL1"]
+		],
+		"Hougang"
+	],
+	[
+		[
+			["DT4", "DTL Hume Station"]
+		],
+		"Hume"
 	]
 ];
 
