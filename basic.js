@@ -409,6 +409,36 @@ const stnList = [
 		],
 		"Founders' Memorial"
 	],
+	[
+		[
+			["TE22", "TEL3"]
+		],
+		"Gardens by the Bay"
+	],
+	[
+		[
+			["JW1", "JRL1"]
+		],
+		"Gek Poh"
+	],
+	[
+		[
+			["DT24", "DTL3"]
+		],
+		"Geylang Bahru"
+	],
+	[
+		[
+			["TE15", "TEL3"]
+		],
+		"Great World"
+	],
+	[
+		[
+			["EW30", "EWL Tuas West Extension"]
+		],
+		"Gul Circle"
+	]
 ];
 
 
