@@ -488,6 +488,26 @@ const stnList = [
 			["DT4", "DTL Hume Station"]
 		],
 		"Hume"
+	],
+	[
+		[
+			["DT22", "DTL3"]
+		],
+		"Jalan Besar"
+	],
+	[
+		[
+			["EW29", "EWL Boon Lay Extension"]
+		],
+		"Joo Koon"
+	],
+	[
+		[
+			["NS1", "NSL2b2"],
+			["EW24", "EWL2b1"],
+			["JE5", "JRL2"]
+		],
+		"Jurong East"
 	]
 ];
 
