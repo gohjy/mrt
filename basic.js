@@ -538,6 +538,67 @@ const stnList = [
 			["JS6", "JRL1"]
 		],
 		"Jurong West"
+	],
+	[
+		[
+			["DT28", "DTL3"]
+		],
+		"Kaki Bukit"
+	],
+	[
+		[
+			["EW10", "EWL2a1"]
+		],
+		"Kallang"
+	],
+	[
+		[
+			["TE24", "TEL4"]
+		],
+		"Katong Park"
+	],
+	[
+		[
+			["EW6", "EWL2a1"]
+		],
+		"Kembangan"
+	],
+	[
+		[
+			["CC24", "CCL4"]
+		],
+		"Kent Ridge"
+	],
+	[
+		[
+			["CC30", "CCL6"]
+		],
+		"Keppel"
+	],
+	[
+		[
+			["NS14", "NSL2b1"]
+		],
+		"Khatib"
+	],
+	[
+		[
+			["DT6", "DTL2"],
+			["CR15", "CRL2"]
+		],
+		"King Albert Park"
+	],
+	[
+		[
+			["NE13", "NEL"]
+		],
+		"Kovan"
+	],
+	[
+		[
+			["NS7", "NSL Woodlands Extension"]
+		],
+		"Kranji"
 	]
 ];
 
