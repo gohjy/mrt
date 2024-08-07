@@ -508,6 +508,36 @@ const stnList = [
 			["JE5", "JRL2"]
 		],
 		"Jurong East"
+	],
+	[
+		[
+			["JS11", "JRL3"]
+		],
+		"Jurong Hill"
+	],
+	[
+		[
+			["CR19", "CRL2"]
+		],
+		"Jurong Lake District"
+	],
+	[
+		[
+			["JS12", "JRL3"]
+		],
+		"Jurong Pier"
+	],
+	[
+		[
+			["JE6", "JRL2"]
+		],
+		"Jurong Town Hall"
+	],
+	[
+		[
+			["JS6", "JRL1"]
+		],
+		"Jurong West"
 	]
 ];
 
