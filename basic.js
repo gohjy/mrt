@@ -599,6 +599,56 @@ const stnList = [
 			["NS7", "NSL Woodlands Extension"]
 		],
 		"Kranji"
+	],
+	[
+		[
+			["CC27", "CCL5"]
+		],
+		"Labrador Park"
+	],
+	[
+		[
+			["EW26", "EWL2b1"]
+		],
+		"Lakeside"
+	],
+	[
+		[
+			["EW11", "EWL2a1"]
+		],
+		"Lavender"
+	],
+	[
+		[
+			["TE5", "TEL2"]
+		],
+		"Lentor"
+	],
+	[
+		[
+			["NE7", "NEL"],
+			["DT12", "DTL2"]
+		],
+		"Little India"
+	],
+	[
+		[
+			["CC14", "CCL3"]
+		],
+		"Lorong Chuan"
+	],
+	[
+		[
+			["CR3", "CRL1"]
+		],
+		"Loyang"
+	],
+	[
+		[
+			["CC10", "CCL2"],
+			["DT26", "DTL3"]
+		],
+		"MacPherson"
 	]
 ];
 
@@ -875,13 +925,13 @@ const stations = [
 		[
 			["TE5", "TEL2"]
 		],
-		"Mayflower"
+		"Lentor"
 	],
 	[
 		[
 			["TE6", "TEL2"]
 		],
-		"Springleaf"
+		"Mayflower"
 	],
 	[
 		[
