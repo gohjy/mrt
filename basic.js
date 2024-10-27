@@ -649,6 +649,86 @@ const stnList = [
 			["DT26", "DTL3"]
 		],
 		"MacPherson"
+	],
+	[
+		[
+			["CR16", "CRL2"]
+		],
+		"Maju"
+	],
+	[
+		[
+			["NS27", "NSL2a"],
+			["TE20", "TEL3"],
+			["CE2", "CCLe", "CC33", "CCL6"]
+		],
+		"Marina Bay"
+	],
+	[
+		[
+			["TE21", "TEL3"]
+		],
+		"Marina South"
+	],
+	[
+		[
+			["NS28", "NSL Extension (Marina South)"]
+		],
+		"Marina South Pier"
+	],
+	[
+		[
+			["TE26", "TEL4"]
+		],
+		"Marine Parade"
+	],
+	[
+		[
+			["TE27", "TEL4"]
+		],
+		"Marine Terrace"
+	],
+	[
+		[
+			["NS8", "NSL Woodlands Extension"]
+		],
+		"Marsiling"
+	],
+	[
+		[
+			["CC16", "CCL3"]
+		],
+		"Marymount"
+	],
+	[
+		[
+			["DT25", "DTL3"]
+		],
+		"Mattar"
+	],
+	[
+		[
+			["TE18", "TEL3"]
+		],
+		"Maxwell"
+	],
+	[
+		[
+			["TE6", "TEL2"]
+		],
+		"Mayflower"
+	],
+	[
+		[
+			["TE10", "TEL3"]
+		],
+		"Mount Pleasant"
+	],
+	[
+		[
+			["CC7", "CCL2"]
+		],
+		"Mountbatten"
 	]
 ];
 
@@ -1071,7 +1151,7 @@ const stages = {
 	"NSL2b1": {open: true, date: "20 Dec 1988", except: {}},
 	"NSL2b2": {open: true, date: "10 Mar 1990", except: {}},
 	"NSL Woodlands Extension": {open: true, date: "10 Feb 1996", except: {}},
-	"NSL Marina South Extension": {open: true, date: "23 Nov 2014", except: {}},
+	"NSL Extension (Marina South)": {open: true, date: "23 Nov 2014", except: {}},
 	"NSL Canberra Infill Station": {open: true, date: "2 Nov 2019", except: {}},
 	"NSL Brickland Infill Station": {open: false, date: "2034", except: {}},
 	"NSL Sungei Kadut Infill Station": {open: false, date: "mid-2030s", except: {}},
@@ -1081,7 +1161,7 @@ const stages = {
 		"NE11": {open: true, date: "20 Jun 2011", except: {}},
 		"NE15": {open: true, date: "15 Jan 2006", except: {}}
 	}},
-	"NELe": {open: false, date: "2024", except: {}},
+	"NELe": {open: false, date: "10 Dec 2024", except: {}},
 
 	// Circle Line
 	"CCL1": {open: true, date: "17 Apr 2010", except: {}},
