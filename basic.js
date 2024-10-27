@@ -729,6 +729,49 @@ const stnList = [
 			["CC7", "CCL2"]
 		],
 		"Mountbatten"
+	],
+	[
+		[
+			["JW4", "JRL3"]
+		],
+		"Nanyang Crescent"
+	],
+	[
+		[
+			["JW3", "JRL3"]
+		],
+		"Nanyang Gateway"
+	],
+	[
+		[
+			["TE12", "TEL3"]
+		],
+		"Napier"
+	],
+	[
+		[
+			["NS21", "NSL1-2"],
+			["DT11", "DTL2"]
+		],
+		"Newton",
+		{
+			tapout: [
+				["NS21"],
+				["DT11"]
+			]
+		}
+	],
+	[
+		[
+			["CC5", "CCL1"]
+		],
+		"Nicoll Highway"
+	],
+	[
+		[
+			["NS20", "NSL1-2"]
+		],
+		"Novena"
 	]
 ];
 
