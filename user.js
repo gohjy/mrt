@@ -1,4 +1,9 @@
-const tripleLetters = ["rts", "ptc", "stc"];
+const tlMap = {
+	rts: "rts",
+	ptc: "pg",
+	stc: "sk"
+};
+const tripleLetters = Object.keys(tlMap);
 
 // TESTING PHASE 1
 {
@@ -71,8 +76,12 @@ const tripleLetters = ["rts", "ptc", "stc"];
 				let stncodeholder = document.createElement("div");
 				stncodeholder.className = "stn-code-holder";
 				let stncode = document.createElement("div");
-				stncode.className = (code === "rts") ? "stn-code rts" : ("stn-code " + code.slice(0, 2).toLowerCase());
-				stncode.append((code === "rts") ? "RTS" : (code.slice(0, 2).toUpperCase()));
+				if (tripleLetters.includes(code)) {
+					stncode.className = (tlMap[code])
+				} else {
+					stncode.className = "stn-code " + code.slice(0, 2).toLowerCase();
+				}
+				stncode.append((tripleLetters.includes(code)) ? code.toUpperCase() : (code.slice(0, 2).toUpperCase()));
 				
 				if (code !== "rts") { 
 					stncode.append(" ");
