@@ -772,7 +772,14 @@ const stnList = [
 			["NS20", "NSL1-2"]
 		],
 		"Novena"
-	]
+	],
+	[
+		[
+			["CC23", "CCL4"]
+		],
+		"one-north"
+	],
+	
 ];
 
 
